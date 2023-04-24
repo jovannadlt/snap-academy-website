@@ -1,0 +1,230 @@
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Times New Roman;
+  font-size: 20px;
+}
+
+
+
+.title{
+  font-size: 50px;
+  font-family: bradley hand, Cursive;
+  text-align: center;
+  background-color: pink;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.manana-title{
+  text-decoration: none;
+  color: white;
+
+}
+
+.logo{
+  width: 5%;
+  vertical-align: top;
+}
+
+.menu-bar-outline{
+  background-color: antiquewhite;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 20px;
+  font-family: Gill Sans;
+  font-weight: 200;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: solid;
+  border-bottom: solid;
+  border-color: gray;
+
+}
+
+.menu{
+  text-align: right;
+  padding-right: 40px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  color: black
+}
+
+.menu:hover{
+  opacity: 0.75;
+}
+
+.menu:active{
+  opacity: 0.5;
+}
+
+.about{
+  text-align: left;
+  padding-left: 40px;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  color: black;
+}
+.about:hover{
+  opacity: 0.75;
+}
+
+.about:active{
+  opacity: 0.5;
+}
+
+.enjoy-coffee{
+  background-color: antiquewhite;
+  display:grid;
+  grid-template-columns: 1fr;
+}
+
+.coffee-image{
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding-top: 15px;
+}
+
+
+.enjoy-sentence{
+  font-size: 30px;
+  text-align: center;
+  font-family: Apple Chancery;
+  margin-bottom: 100px;
+}
+
+.top-drinks{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  border-top: dotted 5px;
+}
+
+
+.outline-top3{
+  display:grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  background-color: antiquewhite;
+  padding-right: 30px;
+  padding-left: 30px;
+  
+}
+
+.top3{
+  height: 450px;
+  width: 350px;
+  object-fit: cover;
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+
+.border{
+  border-top: dotted 5px;
+  background-color:antiquewhite;
+}
+
+.yelp-outline{
+  text-align: right;
+  padding-right: 15px;
+  background-color:antiquewhite;
+}
+
+.find-more{
+  color: gray;
+  font-size: 13px;
+  font-family: Arial;
+  opacity: 0.75;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.yelp{
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.yelp:hover{
+  color:brown;
+}
+
+.yelp:active{
+  opacity: 0.5;
+}
+
+.outline-hours-location{
+  display:grid;
+  text-align: center;
+  grid-template-columns: 2fr 1fr;
+  background-color:antiquewhite;
+}
+
+.hours-div, .address-div{
+  margin-top: 50px;
+  margin-bottom: 15px;
+  margin-right: 50px;
+}
+
+.days-hours{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  color: rgb(23, 30, 106);
+  row-gap: 5px;
+  border-right: solid;
+}
+
+.hours, .address{
+  font-size: 25px;
+}
+
+.address-link{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.address-link:hover{
+  color:rgb(124, 71, 55);
+}
+
+.address-link:active{
+  opacity: 0.75;
+}
+
+.information{
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: pink;
+  border-top: solid;
+  padding-top: 50px;
+  padding-bottom: 80px;
+
+}
+
+.font{
+  font-family: Arial;
+  font-size: 14px;
+  margin-bottom: 7px;
+  opacity: 0.75;
+}
+
+.link-pref{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.link-pref:hover{
+  color:brown;
+}
+
+.link-pref:active{
+  opacity: 0.5;
+}
